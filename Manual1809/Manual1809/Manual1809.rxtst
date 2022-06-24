@@ -152,9 +152,6 @@
 			<testcontainer
 			id="c0a46933-82f0-4c59-bc94-987ea384dde2">
 			</testcontainer>
-			<testcontainer
-			id="e63f7d14-f3ff-4119-a7cf-f40492568b73">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
