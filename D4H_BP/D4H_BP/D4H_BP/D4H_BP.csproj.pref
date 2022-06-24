@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CancelRequest.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="D4H_BP.rxtst" />
+    <Element value="CancelRequest.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="D4H_BP.SubmitOT.Get_value_lb_RequestwithCR(RepoItemInfo spantagInfo)" />
+      <Element value="D4H_BP.SubmitOT.Get_value_lb_RequestwithCR(RepoItemInfo spantagInfo)" />
+    </Array>
+  </Properties>
+</Properties>

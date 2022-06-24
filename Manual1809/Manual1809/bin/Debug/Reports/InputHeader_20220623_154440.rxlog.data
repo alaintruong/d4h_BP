@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="16.1s"
+		durationms="16102"
+		type="root"
+		rid="1e3517a4ac2abf4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Laptop"
+		rxversion="10.2.2.0"
+		host="ALAINTRUONG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3456x1130"
+		timestamp="6/23/2022 3:44:43 PM"
+		timestampiso="2022-06-23T08:44:43"
+		endtime="6/23/2022 3:44:59 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputHeader">
+		<detail>
+			InputHeader
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.999"
+			timeRelativeToTestModuleStartTime="00:03.999"
+			timeWallClock="15:44:47"
+			time="00:03.999"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InputHeader.txt_RequestDescription' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_RequestDescription"
+				id="0e1cf07d756e488bb8b2fe6d9b951267"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.006"
+			timeRelativeToTestModuleStartTime="00:07.006"
+			timeWallClock="15:44:50"
+			time="00:07.006"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Alain Gen Auto and reject' with focus on 'ApplicationUnderTest.InputHeader.txt_RequestDescription'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_RequestDescription"
+				id="0e1cf07d756e488bb8b2fe6d9b951267"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.469"
+			timeRelativeToTestModuleStartTime="00:08.469"
+			timeWallClock="15:44:51"
+			time="00:08.469"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InputHeader.txt_Priority' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[2]/div[@title='Priority']/?/?/input[@type='text']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[2]/div[@title='Priority']/?/?/input[@type='text']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_Priority"
+				id="f5f72da45c7448679a54c32ab1743a1a"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.727"
+			timeRelativeToTestModuleStartTime="00:09.727"
+			timeWallClock="15:44:52"
+			time="00:09.727"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'MEDIUM' with focus on 'ApplicationUnderTest.InputHeader.txt_Priority'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[2]/div[@title='Priority']/?/?/input[@type='text']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[2]/div[@title='Priority']/?/?/input[@type='text']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_Priority"
+				id="f5f72da45c7448679a54c32ab1743a1a"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.728"
+			timeRelativeToTestModuleStartTime="00:10.728"
+			timeWallClock="15:44:53"
+			time="00:10.728"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InputHeader.txt_Reason' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[3]/div[@title='Reason']/?/?/input[@type='text']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[3]/div[@title='Reason']/?/?/input[@type='text']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_Reason"
+				id="20e0bea286284e7ca277c1b50ad17f65"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.032"
+			timeRelativeToTestModuleStartTime="00:12.032"
+			timeWallClock="15:44:55"
+			time="00:12.032"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'New Business Partner' with focus on 'ApplicationUnderTest.InputHeader.txt_Reason'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[3]/div[@title='Reason']/?/?/input[@type='text']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[3]/div[@title='Reason']/?/?/input[@type='text']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_Reason"
+				id="20e0bea286284e7ca277c1b50ad17f65"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.432"
+			timeRelativeToTestModuleStartTime="00:13.432"
+			timeWallClock="15:44:56"
+			time="00:13.432"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InputHeader.txt_OtherReason' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_OtherReason"
+				id="c10d78dfb5a5478cb4be5a6f7eb1748d"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.792"
+			timeRelativeToTestModuleStartTime="00:14.792"
+			timeWallClock="15:44:57"
+			time="00:14.792"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'JUST for Testing' with focus on 'ApplicationUnderTest.InputHeader.txt_OtherReason'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.InputHeader.txt_OtherReason"
+				id="c10d78dfb5a5478cb4be5a6f7eb1748d"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\InputHeader.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

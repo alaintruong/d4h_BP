@@ -1,0 +1,1357 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>D4H_BP</name>
+    </assembly>
+    <members>
+        <member name="T:D4H_BP.Business_Request">
+             <summary>
+            The Business_Request recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.Business_Request.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Business_Request.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Business_Request.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.Business_Request.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Business_Request.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.Business_Request.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Business_Request.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Business_Request.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.CancelRequest">
+             <summary>
+            The CancelRequest recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.CancelRequest.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.CancelRequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.CancelRequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.CancelRequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.CancelRequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.CancelRequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.CancelRequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.CancelRequest.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.ChooseTemplate">
+             <summary>
+            The ChooseTemplate recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.ChooseTemplate.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.ChooseTemplate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.ChooseTemplate.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.ChooseTemplate.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.ChooseTemplate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.ChooseTemplate.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.ChooseTemplate.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.ChooseTemplate.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.ChooseTemplate.vaOjType">
+            <summary>
+            Gets or sets the value of variable vaOjType.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.CloseBrowser.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepository">
+            <summary>
+            The class representing the D4H_BPRepository element repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.D4H_BPRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the D4H_BPRepository element repository.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepository.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepository.vaOjType">
+            <summary>
+            Gets or sets the value of variable vaOjType.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepository.LoginToYourAccountLogOn">
+            <summary>
+            The LoginToYourAccountLogOn folder.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_MainApp">
+            <summary>
+            The Btn_MainApp item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_MainAppInfo">
+            <summary>
+            The Btn_MainApp item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Icon_Requestor">
+            <summary>
+            The Icon_Requestor item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Icon_RequestorInfo">
+            <summary>
+            The Icon_Requestor item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_Logout">
+            <summary>
+            The lb_Logout item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_LogoutInfo">
+            <summary>
+            The lb_Logout item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_logoutConfirm">
+            <summary>
+            The Btn_logoutConfirm item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_logoutConfirmInfo">
+            <summary>
+            The Btn_logoutConfirm item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_Login">
+            <summary>
+            The lb_Login item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_LoginInfo">
+            <summary>
+            The lb_Login item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_Mytask">
+            <summary>
+            The lb_Mytask item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_MytaskInfo">
+            <summary>
+            The lb_Mytask item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_BusinessRequests">
+            <summary>
+            The lb_BusinessRequests item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_BusinessRequestsInfo">
+            <summary>
+            The lb_BusinessRequests item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_SubmitRequest">
+            <summary>
+            The Btn_SubmitRequest item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_SubmitRequestInfo">
+            <summary>
+            The Btn_SubmitRequest item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_SelectOT">
+            <summary>
+            The txt_SelectOT item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_SelectOTInfo">
+            <summary>
+            The txt_SelectOT item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_Next">
+            <summary>
+            The Btn_Next item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_NextInfo">
+            <summary>
+            The Btn_Next item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_ChooseTemplate">
+            <summary>
+            The Btn_ChooseTemplate item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_ChooseTemplateInfo">
+            <summary>
+            The Btn_ChooseTemplate item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_SelectSearch">
+            <summary>
+            The txt_SelectSearch item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_SelectSearchInfo">
+            <summary>
+            The txt_SelectSearch item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_SearchAction">
+            <summary>
+            The Btn_SearchAction item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_SearchActionInfo">
+            <summary>
+            The Btn_SearchAction item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_ChooseTemplate">
+            <summary>
+            The lb_ChooseTemplate item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_ChooseTemplateInfo">
+            <summary>
+            The lb_ChooseTemplate item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_SubmitOT">
+            <summary>
+            The Btn_SubmitOT item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_SubmitOTInfo">
+            <summary>
+            The Btn_SubmitOT item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_Note4Submit">
+            <summary>
+            The txt_Note4Submit item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_Note4SubmitInfo">
+            <summary>
+            The txt_Note4Submit item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_Submit">
+            <summary>
+            The Btn_Submit item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_SubmitInfo">
+            <summary>
+            The Btn_Submit item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_RequestwithCR">
+            <summary>
+            The lb_RequestwithCR item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_RequestwithCRInfo">
+            <summary>
+            The lb_RequestwithCR item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_OKRequestSuccess">
+            <summary>
+            The Btn_OKRequestSuccess item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_OKRequestSuccessInfo">
+            <summary>
+            The Btn_OKRequestSuccess item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_ChangeRequestFilter">
+            <summary>
+            The txt_ChangeRequestFilter item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.txt_ChangeRequestFilterInfo">
+            <summary>
+            The txt_ChangeRequestFilter item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_OKFilter">
+            <summary>
+            The Btn_OKFilter item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_OKFilterInfo">
+            <summary>
+            The Btn_OKFilter item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_Option">
+            <summary>
+            The Btn_Option item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_OptionInfo">
+            <summary>
+            The Btn_Option item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_CancelRequest">
+            <summary>
+            The lb_CancelRequest item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.lb_CancelRequestInfo">
+            <summary>
+            The lb_CancelRequest item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_ConfirmCancel">
+            <summary>
+            The Btn_ConfirmCancel item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.Btn_ConfirmCancelInfo">
+            <summary>
+            The Btn_ConfirmCancel item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.InputHeader">
+            <summary>
+            The InputHeader folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.TabRoles">
+            <summary>
+            The TabRoles folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.TabGeneralData">
+            <summary>
+            The TabGeneralData folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.ApplicationUnderTestAppFolder.TabAddress">
+            <summary>
+            The TabAddress folder.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder">
+            <summary>
+            The InputHeaderFolder folder.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new InputHeader  folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_RequestDescription">
+            <summary>
+            The txt_RequestDescription item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_RequestDescriptionInfo">
+            <summary>
+            The txt_RequestDescription item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_Priority">
+            <summary>
+            The txt_Priority item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_PriorityInfo">
+            <summary>
+            The txt_Priority item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_Reason">
+            <summary>
+            The txt_Reason item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_ReasonInfo">
+            <summary>
+            The txt_Reason item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_OtherReason">
+            <summary>
+            The txt_OtherReason item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.InputHeaderFolder.txt_OtherReasonInfo">
+            <summary>
+            The txt_OtherReason item info.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepositoryFolders.TabRolesFolder">
+            <summary>
+            The TabRolesFolder folder.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.D4H_BPRepositoryFolders.TabRolesFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TabRoles  folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabRolesFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabRolesFolder.SelectRoles">
+            <summary>
+            The SelectRoles item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabRolesFolder.SelectRolesInfo">
+            <summary>
+            The SelectRoles item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabRolesFolder.CheckboxRoles">
+            <summary>
+            The CheckboxRoles item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabRolesFolder.CheckboxRolesInfo">
+            <summary>
+            The CheckboxRoles item info.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder">
+            <summary>
+            The TabGeneralDataFolder folder.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TabGeneralData  folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.lb_GeneralData">
+            <summary>
+            The lb_GeneralData item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.lb_GeneralDataInfo">
+            <summary>
+            The lb_GeneralData item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_BusinessPartner">
+            <summary>
+            The txt_BusinessPartner item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_BusinessPartnerInfo">
+            <summary>
+            The txt_BusinessPartner item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_Category">
+            <summary>
+            The txt_Category item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_CategoryInfo">
+            <summary>
+            The txt_Category item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_Title">
+            <summary>
+            The txt_Title item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_TitleInfo">
+            <summary>
+            The txt_Title item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_Name1">
+            <summary>
+            The txt_Name1 item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabGeneralDataFolder.txt_Name1Info">
+            <summary>
+            The txt_Name1 item info.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder">
+            <summary>
+            The TabAddressFolder folder.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TabAddress  folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Tab_Address">
+            <summary>
+            The Tab_Address item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Tab_AddressInfo">
+            <summary>
+            The Tab_Address item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_District">
+            <summary>
+            The txt_District item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_DistrictInfo">
+            <summary>
+            The txt_District item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_PostalCode">
+            <summary>
+            The txt_PostalCode item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_PostalCodeInfo">
+            <summary>
+            The txt_PostalCode item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_City">
+            <summary>
+            The txt_City item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_CityInfo">
+            <summary>
+            The txt_City item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_SelectCountry">
+            <summary>
+            The Btn_SelectCountry item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_SelectCountryInfo">
+            <summary>
+            The Btn_SelectCountry item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.lb_SelectCountry">
+            <summary>
+            The lb_SelectCountry item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.lb_SelectCountryInfo">
+            <summary>
+            The lb_SelectCountry item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_AddEmailIcon">
+            <summary>
+            The Btn_AddEmailIcon item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_AddEmailIconInfo">
+            <summary>
+            The Btn_AddEmailIcon item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_Email">
+            <summary>
+            The txt_Email item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_EmailInfo">
+            <summary>
+            The txt_Email item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_AddEmail">
+            <summary>
+            The Btn_AddEmail item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_AddEmailInfo">
+            <summary>
+            The Btn_AddEmail item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_SearchCountry">
+            <summary>
+            The txt_SearchCountry item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.txt_SearchCountryInfo">
+            <summary>
+            The txt_SearchCountry item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_SearchCountry">
+            <summary>
+            The Btn_SearchCountry item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.TabAddressFolder.Btn_SearchCountryInfo">
+            <summary>
+            The Btn_SearchCountry item info.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder">
+            <summary>
+            The LoginToYourAccountLogOnAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginToYourAccountLogOn  folder.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.txt_Username">
+            <summary>
+            The txt_Username item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.txt_UsernameInfo">
+            <summary>
+            The txt_Username item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.txt_Password">
+            <summary>
+            The txt_Password item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.txt_PasswordInfo">
+            <summary>
+            The txt_Password item info.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.Btn_LogOn">
+            <summary>
+            The Btn_LogOn item.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.D4H_BPRepositoryFolders.LoginToYourAccountLogOnAppFolder.Btn_LogOnInfo">
+            <summary>
+            The Btn_LogOn item info.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.InputAddress">
+             <summary>
+            The InputAddress recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.InputAddress.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputAddress.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputAddress.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.InputAddress.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputAddress.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.InputAddress.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputAddress.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputAddress.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.InputGeneralData">
+             <summary>
+            The InputGeneralData recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.InputGeneralData.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputGeneralData.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputGeneralData.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.InputGeneralData.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputGeneralData.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.InputGeneralData.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputGeneralData.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputGeneralData.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.InputHeader">
+             <summary>
+            The InputHeader recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.InputHeader.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputHeader.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputHeader.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.InputHeader.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputHeader.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.InputHeader.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputHeader.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputHeader.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.InputRoles">
+             <summary>
+            The InputRoles recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.InputRoles.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputRoles.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputRoles.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.InputRoles.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.InputRoles.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.InputRoles.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputRoles.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.InputRoles.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.LogOut_Requestor">
+             <summary>
+            The LogOut_Requestor recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.LogOut_Requestor.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.LogOut_Requestor.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.LogOut_Requestor.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.LogOut_Requestor.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.LogOut_Requestor.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.LogOut_Requestor.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.LogOut_Requestor.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.LogOut_Requestor.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.OpenBrowser.varURLproject">
+            <summary>
+            Gets or sets the value of variable varURLproject.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.Login.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Login.varUsername">
+            <summary>
+            Gets or sets the value of variable varUsername.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Login.varPassword">
+            <summary>
+            Gets or sets the value of variable varPassword.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.Reset_Login">
+             <summary>
+            The Reset_Login recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.Reset_Login.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Reset_Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Reset_Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.Reset_Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Reset_Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.Reset_Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Reset_Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Reset_Login.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.SelectMainApp">
+             <summary>
+            The SelectMainApp recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.SelectMainApp.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.SelectMainApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.SelectMainApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.SelectMainApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.SelectMainApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.SelectMainApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.SelectMainApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.SelectMainApp.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.SubmitOT">
+             <summary>
+            The SubmitOT recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.SubmitOT.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.SubmitOT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.SubmitOT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.SubmitOT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.SubmitOT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.SubmitOT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.SubmitOT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.SubmitOT.varGetCRString">
+            <summary>
+            Gets or sets the value of variable varGetCRString.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.SubmitOT.varGetCRNumber">
+            <summary>
+            Gets or sets the value of variable varGetCRNumber.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.SubmitOT.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:D4H_BP.Submit_Request">
+             <summary>
+            The Submit_Request recording.
+             </summary>
+        </member>
+        <member name="F:D4H_BP.Submit_Request.repo">
+            <summary>
+            Holds an instance of the D4H_BPRepository repository.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Submit_Request.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Submit_Request.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:D4H_BP.Submit_Request.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:D4H_BP.Submit_Request.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:D4H_BP.Submit_Request.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Submit_Request.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:D4H_BP.Submit_Request.domainname">
+            <summary>
+            Gets or sets the value of variable domainname.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

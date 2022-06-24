@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="37.56s"
+		durationms="37564"
+		type="root"
+		rid="8d4aa90beef913e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Laptop"
+		rxversion="10.2.2.0"
+		host="ALAINTRUONG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3456x1130"
+		timestamp="6/23/2022 2:06:15 PM"
+		timestampiso="2022-06-23T07:06:15"
+		endtime="6/23/2022 2:06:53 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Business_Request">
+		<detail>
+			Business_Request
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.731"
+			timeRelativeToTestModuleStartTime="00:01.731"
+			timeWallClock="14:06:17"
+			time="00:01.731"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.lb_Mytask'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/?/?/header/div/div/div[2]/div[1]/div[3]/div[1]/?/?/span[@innertext='My Tasks ⁝']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/?/?/header/div/div/div[2]/div[1]/div[3]/div[1]/?/?/span[@innertext='My Tasks ⁝']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.lb_Mytask"
+				id="e854b3faa0104d3584f4d1c56c309306"
+				timeout="5000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.913"
+			timeRelativeToTestModuleStartTime="00:04.913"
+			timeWallClock="14:06:20"
+			time="00:04.913"
+			level="Info"
+			category="User">
+			<message>
+				Item 'lb_Mytask' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.913"
+			timeRelativeToTestModuleStartTime="00:04.913"
+			timeWallClock="14:06:20"
+			time="00:04.913"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.lb_Mytask' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/?/?/header/div/div/div[2]/div[1]/div[3]/div[1]/?/?/span[@innertext='My Tasks ⁝']"
+				itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/?/?/header/div/div/div[2]/div[1]/div[3]/div[1]/?/?/span[@innertext='My Tasks ⁝']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.lb_Mytask"
+				id="e854b3faa0104d3584f4d1c56c309306"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.513"
+			timeRelativeToTestModuleStartTime="00:05.513"
+			timeWallClock="14:06:21"
+			time="00:05.513"
+			level="Info"
+			category="User">
+			<message>
+				Item 'lb_Mytask' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+				codeline="86"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.407"
+			timeRelativeToTestModuleStartTime="00:06.407"
+			timeWallClock="14:06:22"
+			time="00:06.407"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.lb_BusinessRequests' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'sap-ui-static']/div[3]/div/div/div/div/div/div[2]//span[@innertext='Business Requests']"
+				itempath=".//div[#'sap-ui-static']/div[3]/div/div/div/div/div/div[2]//span[@innertext='Business Requests']"
+				fullname="D4H_BPRepository.ApplicationUnderTest.lb_BusinessRequests"
+				id="116968cfc11644d4b1f198d3112f75ea"
+				timeout="60000"
+				codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.956"
+			timeRelativeToTestModuleStartTime="00:36.956"
+			timeWallClock="14:06:52"
+			time="00:36.956"
+			level="Info"
+			category="User">
+			<message>
+				Item 'lb_BusinessRequests' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+				codeline="90"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

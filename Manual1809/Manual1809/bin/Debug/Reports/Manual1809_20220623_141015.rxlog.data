@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.4s"
+		durationms="11398"
+		type="root"
+		rid="67aac2522ea25cf"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Laptop"
+		rxversion="10.2.2.0"
+		host="ALAINTRUONG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3456x1130"
+		timestamp="6/23/2022 2:10:15 PM"
+		timestampiso="2022-06-23T07:10:15"
+		endtime="6/23/2022 2:10:27 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="10.17s"
+			durationms="10167"
+			type="test-suite"
+			rid="c77d60bd1631ec"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Manual1809"
+			headertext="Manual1809"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="10.14s"
+				durationms="10140"
+				type="test-case"
+				rid="248ee0bc8de98aae"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="SelectObjectType"
+				testcontainerid="5cea2112-db31-49b7-a240-8b64e6cc36b7"
+				headertext="SelectObjectType"
+				displayName="SelectObjectType"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="10.09s"
+					durationms="10094"
+					type="test-module"
+					rid="9f3b3d94d7643fe"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Business_Request"
+					displayName="Business_Request"
+					moduleid="4969f58a-91f4-4740-ad7b-bea3c82368b5"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to wait for item to exist.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.077"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="14:10:17"
+						time="00:00.077"
+						level="Info"
+						category="Wait"
+						errimg="images_Manual18_83299d4e\Manual18_83299d4e_bc58aa6e_trace.jpg"
+						errthumb="images_Manual18_83299d4e\Manual18_83299d4e_bc58aa6e_trace_thumb.jpg">
+						<message>
+							Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.lb_Mytask'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]//section/?/?/header/div/div/div[2]/div[1]/div[4]/div[1]/div[1]/span[@innertext='My Tasks ⁝']"
+							itempath=".//body[#'simplemdg']/div[3]//section/?/?/header/div/div/div[2]/div[1]/div[4]/div[1]/div[1]/span[@innertext='My Tasks ⁝']"
+							fullname="D4H_BPRepository.ApplicationUnderTest.lb_Mytask"
+							id="e854b3faa0104d3584f4d1c56c309306"
+							timeout="5000"
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.955"
+						timeRelativeToTestModuleStartTime="00:09.885"
+						timeWallClock="14:10:27"
+						time="00:09.955"
+						level="Info"
+						category="User"
+						errimg="images_Manual18_83299d4e\Manual18_83299d4e_360b6f39_trace.jpg"
+						errthumb="images_Manual18_83299d4e\Manual18_83299d4e_360b6f39_trace_thumb.jpg">
+						<message>
+							Item 'lb_Mytask' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="83"
+							loglvl="Info"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.043"
+						timeRelativeToTestModuleStartTime="00:09.972"
+						timeWallClock="14:10:27"
+						time="00:10.043"
+						level="Error"
+						category="Module"
+						errimg="images_Manual18_83299d4e\Manual18_83299d4e_bcefe8a1_trace.jpg"
+						errthumb="images_Manual18_83299d4e\Manual18_83299d4e_bcefe8a1_trace_thumb.jpg">
+						<message>
+							Failed to wait for item to exist.<br/>Failed to find item 'D4H_BPRepository.ApplicationUnderTest.lb_Mytask'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]//section/?/?/header/div/div/div[2]/div[1]/div[4]/div[1]/div[1]/span[@innertext='My Tasks ⁝']' at step 'dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']' after 24 attempts within 5s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Manual1809.Business_Request.Ranorex.Core.Testing.ITestModule.Run() in c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="83"
+							loglvl="Error"
+							id="e854b3faa0104d3584f4d1c56c309306"
+							path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]//section/?/?/header/div/div/div[2]/div[1]/div[4]/div[1]/div[1]/span[@innertext='My Tasks ⁝']"
+							fullname="D4H_BPRepository.ApplicationUnderTest.lb_Mytask"
+							itemindex="0">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

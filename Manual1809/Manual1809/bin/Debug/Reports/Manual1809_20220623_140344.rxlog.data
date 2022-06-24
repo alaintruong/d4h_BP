@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.2m"
+		durationms="71625"
+		type="root"
+		rid="e6616468914dd9c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Laptop"
+		rxversion="10.2.2.0"
+		host="ALAINTRUONG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3456x1130"
+		timestamp="6/23/2022 2:03:44 PM"
+		timestampiso="2022-06-23T07:03:44"
+		endtime="6/23/2022 2:04:56 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="1.2m"
+			durationms="70413"
+			type="test-suite"
+			rid="2198341570a028"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Manual1809"
+			headertext="Manual1809"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="1.2m"
+				durationms="70396"
+				type="test-case"
+				rid="baa99e345607ca1"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="SelectObjectType"
+				testcontainerid="5cea2112-db31-49b7-a240-8b64e6cc36b7"
+				headertext="SelectObjectType"
+				displayName="SelectObjectType"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="1.2m"
+					durationms="70335"
+					type="test-module"
+					rid="1f7d49794c9d9000"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Business_Request"
+					displayName="Business_Request"
+					moduleid="4969f58a-91f4-4740-ad7b-bea3c82368b5"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.079"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="14:03:45"
+						time="00:00.079"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 5s.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.134"
+						timeRelativeToTestModuleStartTime="00:05.059"
+						timeWallClock="14:03:51"
+						time="00:05.134"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.lb_Mytask' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/?/?/header/div/div/div[2]/div[1]/div[3]/div[1]/?/?/span[@innertext='My Tasks ⁝']"
+							itempath=".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/?/?/header/div/div/div[2]/div[1]/div[3]/div[1]/?/?/span[@innertext='My Tasks ⁝']"
+							fullname="D4H_BPRepository.ApplicationUnderTest.lb_Mytask"
+							id="e854b3faa0104d3584f4d1c56c309306"
+							timeout="60000"
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.065"
+						timeRelativeToTestModuleStartTime="00:35.990"
+						timeWallClock="14:04:21"
+						time="00:36.065"
+						level="Info"
+						category="User">
+						<message>
+							Item 'lb_Mytask' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="86"
+							loglvl="Info"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.055"
+						timeRelativeToTestModuleStartTime="00:36.980"
+						timeWallClock="14:04:22"
+						time="00:37.055"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.lb_BusinessRequests' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'sap-ui-static']/div[3]/div/div/div/div/div/div[2]//span[@innertext='Business Requests']"
+							itempath=".//div[#'sap-ui-static']/div[3]/div/div/div/div/div/div[2]//span[@innertext='Business Requests']"
+							fullname="D4H_BPRepository.ApplicationUnderTest.lb_BusinessRequests"
+							id="116968cfc11644d4b1f198d3112f75ea"
+							timeout="60000"
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:07.686"
+						timeRelativeToTestModuleStartTime="01:07.612"
+						timeWallClock="14:04:53"
+						time="01:07.686"
+						level="Info"
+						category="User">
+						<message>
+							Item 'lb_BusinessRequests' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="90"
+							loglvl="Info"
+							itemindex="2">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.344"
+						timeRelativeToTestModuleStartTime="01:08.270"
+						timeWallClock="14:04:54"
+						time="01:08.344"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="c:\Automation Testing\Manual1809\Manual1809\Business_Request.cs"
+							codeline="93"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

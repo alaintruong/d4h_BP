@@ -1,0 +1,11 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Manual1809.rxtst" />
+    <Element value="InputHeader.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

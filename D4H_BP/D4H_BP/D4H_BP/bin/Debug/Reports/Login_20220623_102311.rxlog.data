@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.56s"
+		durationms="4564"
+		type="root"
+		rid="280d2a574519e3f4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Laptop"
+		rxversion="10.2.2.0"
+		host="ALAINTRUONG"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3456x1130"
+		timestamp="6/23/2022 10:23:12 AM"
+		timestampiso="2022-06-23T03:23:12"
+		endtime="6/23/2022 10:23:16 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.715"
+			timeRelativeToTestModuleStartTime="00:01.715"
+			timeWallClock="10:23:13"
+			time="00:01.715"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varUsername, varPassword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.719"
+			timeRelativeToTestModuleStartTime="00:01.719"
+			timeWallClock="10:23:13"
+			time="00:01.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginToYourAccountLogOn.txt_Username' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']"
+				itempath=".//input[#'j_username']"
+				fullname="D4H_BPRepository.LoginToYourAccountLogOn.txt_Username"
+				id="8d7417e90f064e82bcd6407af2c4c4f3"
+				timeout="60000"
+				codefile="c:\Automation Testing\D4H_BP\D4H_BP\D4H_BP\Login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.734"
+			timeRelativeToTestModuleStartTime="00:02.734"
+			timeWallClock="10:23:14"
+			time="00:02.734"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$varUsername' with focus on 'LoginToYourAccountLogOn.txt_Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']"
+				itempath=".//input[#'j_username']"
+				fullname="D4H_BPRepository.LoginToYourAccountLogOn.txt_Username"
+				id="8d7417e90f064e82bcd6407af2c4c4f3"
+				timeout="60000"
+				codefile="c:\Automation Testing\D4H_BP\D4H_BP\D4H_BP\Login.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.115"
+			timeRelativeToTestModuleStartTime="00:03.115"
+			timeWallClock="10:23:15"
+			time="00:03.115"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginToYourAccountLogOn.txt_Password' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']"
+				itempath=".//input[#'j_password']"
+				fullname="D4H_BPRepository.LoginToYourAccountLogOn.txt_Password"
+				id="6e2202d604314c569ecc73b9aea63ffe"
+				timeout="60000"
+				codefile="c:\Automation Testing\D4H_BP\D4H_BP\D4H_BP\Login.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.680"
+			timeRelativeToTestModuleStartTime="00:03.680"
+			timeWallClock="10:23:15"
+			time="00:03.680"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$varPassword' with focus on 'LoginToYourAccountLogOn.txt_Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']"
+				itempath=".//input[#'j_password']"
+				fullname="D4H_BPRepository.LoginToYourAccountLogOn.txt_Password"
+				id="6e2202d604314c569ecc73b9aea63ffe"
+				timeout="60000"
+				codefile="c:\Automation Testing\D4H_BP\D4H_BP\D4H_BP\Login.cs"
+				codeline="120"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.042"
+			timeRelativeToTestModuleStartTime="00:04.042"
+			timeWallClock="10:23:16"
+			time="00:04.042"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginToYourAccountLogOn.Btn_LogOn' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']"
+				itempath=".//button[#'logOnFormSubmit']"
+				fullname="D4H_BPRepository.LoginToYourAccountLogOn.Btn_LogOn"
+				id="8d658e73a9434565b8cdab5746286202"
+				timeout="60000"
+				codefile="c:\Automation Testing\D4H_BP\D4H_BP\D4H_BP\Login.cs"
+				codeline="124"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
