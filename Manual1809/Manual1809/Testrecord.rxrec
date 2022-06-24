@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8e2d29d8-c915-4476-9c32-a20ac41793e9"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Testrecord"
+	namespace="Manual1809">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="6e36f2fc-c830-4de5-9ec4-de308a0e9fa2"
+	name="Manual1809Repository"
+	relativepath="Manual1809Repository.rxrep">
+		<codegen
+		classname="Manual1809Repository"
+		namespace="Manual1809">
+		</codegen>
+		<rootfolder
+		id="69734461-482b-412b-a4ba-a50106269fdb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Testrecord.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

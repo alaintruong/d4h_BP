@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="Manual1809Repository"
+id="6e36f2fc-c830-4de5-9ec4-de308a0e9fa2">
+  <codegen
+  classname="Manual1809Repository"
+  namespace="Manual1809"/>
+  <rootfolder
+  name="Root"
+  id="69734461-482b-412b-a4ba-a50106269fdb"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

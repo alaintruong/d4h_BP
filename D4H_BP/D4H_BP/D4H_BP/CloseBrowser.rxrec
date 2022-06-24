@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="26e7426e-9b29-47b3-a164-a49129e3e57c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="D4H_BP">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e8c79e97-8ae8-40a2-830b-e68ac757b385">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="73a9cfb6-88e2-4d87-9ccf-276fc3630317"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="30435813-7fd7-4d58-b0de-705b58831979"
+	name="D4H_BPRepository"
+	relativepath="D4H_BPRepository.rxrep">
+		<codegen
+		classname="D4H_BPRepository"
+		namespace="D4H_BP">
+		</codegen>
+		<rootfolder
+		id="49b1f21a-85f7-4646-8be0-81bb0e2f51e9"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
