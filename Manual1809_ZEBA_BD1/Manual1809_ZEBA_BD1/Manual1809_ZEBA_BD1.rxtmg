@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Manual1809_ZEBA_BD1"
+      id="73528c9d-d0e8-4753-b1e9-5bcd348377e8"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Manual1809_ZEBA_BD1"
+      id="73528c9d-d0e8-4753-b1e9-5bcd348377e8"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

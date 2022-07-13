@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="740a1968-68cb-4564-a584-e9a2f2266438"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectRequestwithCR"
+	namespace="Manual1809_ZEBA_BD1.Approval.ReviewAction">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="7e802a45-8976-4277-8797-acc205e71726"
+	name="Manual1809_ZEBA_BD1Repository"
+	relativepath="..\..\Manual1809_ZEBA_BD1Repository.rxrep">
+		<codegen
+		classname="Manual1809_ZEBA_BD1Repository"
+		namespace="Manual1809_ZEBA_BD1">
+		</codegen>
+		<rootfolder
+		id="d8f90a19-4361-42f8-89e0-c1195bdfcc38"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectRequestwithCR.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

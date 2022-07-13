@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{45A79056-E092-4D21-804F-6C7199D12D28}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>3eeeb5f2-2cae-4ed3-b478-04a39d6ad9e5</string>
+      <string>f612f592-00e6-42b9-a2f3-ea5e2ce89a47</string>
+      <string>424d4568-1898-488b-b19a-4110646926af</string>
+      <string>eca0bb31-9b4f-4460-b3e0-3276437c02c7</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Manual1809_ZEBA_BD1[Manual1809_ZEBA_BD1[Requestor[CommonAction[]]]]]&#xD;&#xA;Solution Manual1809_ZEBA_BD1\Manual1809_ZEBA_BD1\Manual1809_ZEBA_BD1.rxtst&#xD;&#xA;Solution Manual1809_ZEBA_BD1" />
+  <StartupProject value="{45A79056-E092-4D21-804F-6C7199D12D28}" />
+</Properties>

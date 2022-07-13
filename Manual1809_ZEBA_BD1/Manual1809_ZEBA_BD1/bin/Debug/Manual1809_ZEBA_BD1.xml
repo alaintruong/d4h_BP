@@ -1,0 +1,2268 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Manual1809_ZEBA_BD1</name>
+    </assembly>
+    <members>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval">
+             <summary>
+            The FilterCR_Approval recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.FilterCR_Approval.varCRnumber">
+            <summary>
+            Gets or sets the value of variable varCRnumber.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval">
+             <summary>
+            The Login_Approval recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.varUsernameAppro">
+            <summary>
+            Gets or sets the value of variable varUsernameAppro.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.Login_Approval.varPasswordAppro">
+            <summary>
+            Gets or sets the value of variable varPasswordAppro.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox">
+             <summary>
+            The OpenBrowserFirefox recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.OpenBrowserFirefox.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp">
+             <summary>
+            The SelectMainApp recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMainApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox">
+             <summary>
+            The SelectMyInbox recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.CommonAction.SelectMyInbox.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest">
+             <summary>
+            The ApprovalARequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.ApprovalARequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest">
+             <summary>
+            The RejectARequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.RejectARequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest">
+             <summary>
+            The ReworkARequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.ReworkARequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR">
+             <summary>
+            The SelectRequestwithCR recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Approval.ReviewAction.SelectRequestwithCR.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository">
+            <summary>
+            The class representing the Manual1809_ZEBA_BD1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Manual1809_ZEBA_BD1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.varRequestTemplate">
+            <summary>
+            Gets or sets the value of variable varRequestTemplate.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.varProductGroup">
+            <summary>
+            Gets or sets the value of variable varProductGroup.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.CRNumber">
+            <summary>
+            Gets or sets the value of variable CRNumber.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.Manual1809_Chrome">
+            <summary>
+            The Manual1809_Chrome folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.LoginForm_Chrome">
+            <summary>
+            The LoginForm_Chrome folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.LoginForm_Firefox">
+            <summary>
+            The LoginForm_Firefox folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository.Manual1809_Firefox">
+            <summary>
+            The Manual1809_Firefox folder.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder">
+            <summary>
+            The Manual1809_ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Manual1809_Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.CommonElements">
+            <summary>
+            The CommonElements folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.SelectBuRequest">
+            <summary>
+            The SelectBuRequest folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.SubmitRequest">
+            <summary>
+            The SubmitRequest folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.ChooseTemplate">
+            <summary>
+            The ChooseTemplate folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.InputHeader">
+            <summary>
+            The InputHeader folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.InputProduct">
+            <summary>
+            The InputProduct folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.InputBasicData">
+            <summary>
+            The InputBasicData folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.SubmitABusinessRequest">
+            <summary>
+            The SubmitABusinessRequest folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.FilterCR">
+            <summary>
+            The FilterCR folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_ChromeAppFolder.LogoutReuqestor">
+            <summary>
+            The LogoutReuqestor folder.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommonElementsFolder">
+            <summary>
+            The CommonElementsFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommonElementsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CommonElements  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommonElementsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommonElementsFolder.btn_SelectMainApp">
+            <summary>
+            The btn_SelectMainApp item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommonElementsFolder.btn_SelectMainAppInfo">
+            <summary>
+            The btn_SelectMainApp item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SelectBuRequestFolder">
+            <summary>
+            The SelectBuRequestFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SelectBuRequestFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SelectBuRequest  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SelectBuRequestFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SelectBuRequestFolder.lb_MyTasks">
+            <summary>
+            The lb_MyTasks item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SelectBuRequestFolder.lb_MyTasksInfo">
+            <summary>
+            The lb_MyTasks item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SelectBuRequestFolder.lb_BusinessRequest">
+            <summary>
+            The lb_BusinessRequest item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SelectBuRequestFolder.lb_BusinessRequestInfo">
+            <summary>
+            The lb_BusinessRequest item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder">
+            <summary>
+            The SubmitRequestFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SubmitRequest  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.btn_SubmitRequest">
+            <summary>
+            The btn_SubmitRequest item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.btn_SubmitRequestInfo">
+            <summary>
+            The btn_SubmitRequest item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.txt_SearchObjectType">
+            <summary>
+            The txt_SearchObjectType item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.txt_SearchObjectTypeInfo">
+            <summary>
+            The txt_SearchObjectType item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.btn_NextAction">
+            <summary>
+            The btn_NextAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitRequestFolder.btn_NextActionInfo">
+            <summary>
+            The btn_NextAction item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder">
+            <summary>
+            The ChooseTemplateFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ChooseTemplate  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.lb_ChooseTemplate">
+            <summary>
+            The lb_ChooseTemplate item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.lb_ChooseTemplateInfo">
+            <summary>
+            The lb_ChooseTemplate item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.txt_SearchTemplate">
+            <summary>
+            The txt_SearchTemplate item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.txt_SearchTemplateInfo">
+            <summary>
+            The txt_SearchTemplate item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.btn_SearchAction">
+            <summary>
+            The btn_SearchAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.btn_SearchActionInfo">
+            <summary>
+            The btn_SearchAction item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.lb_RequestTemplate">
+            <summary>
+            The lb_RequestTemplate item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ChooseTemplateFolder.lb_RequestTemplateInfo">
+            <summary>
+            The lb_RequestTemplate item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder">
+            <summary>
+            The InputHeaderFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new InputHeader  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_RequestDescription">
+            <summary>
+            The txt_RequestDescription item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_RequestDescriptionInfo">
+            <summary>
+            The txt_RequestDescription item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_Priority">
+            <summary>
+            The txt_Priority item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_PriorityInfo">
+            <summary>
+            The txt_Priority item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_Reason">
+            <summary>
+            The txt_Reason item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_ReasonInfo">
+            <summary>
+            The txt_Reason item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_OtherReason">
+            <summary>
+            The txt_OtherReason item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputHeaderFolder.txt_OtherReasonInfo">
+            <summary>
+            The txt_OtherReason item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder">
+            <summary>
+            The InputProductFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new InputProduct  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.btn_AddLang">
+            <summary>
+            The btn_AddLang item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.btn_AddLangInfo">
+            <summary>
+            The btn_AddLang item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.txt_MaterialDescription">
+            <summary>
+            The txt_MaterialDescription item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.txt_MaterialDescriptionInfo">
+            <summary>
+            The txt_MaterialDescription item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.btn_AddAction">
+            <summary>
+            The btn_AddAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputProductFolder.btn_AddActionInfo">
+            <summary>
+            The btn_AddAction item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder">
+            <summary>
+            The InputBasicDataFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new InputBasicData  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.lb_BasicData">
+            <summary>
+            The lb_BasicData item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.lb_BasicDataInfo">
+            <summary>
+            The lb_BasicData item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.btn_ChooseMaterialGroup">
+            <summary>
+            The btn_ChooseMaterialGroup item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.btn_ChooseMaterialGroupInfo">
+            <summary>
+            The btn_ChooseMaterialGroup item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.txt_SearchProductGroup">
+            <summary>
+            The txt_SearchProductGroup item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.txt_SearchProductGroupInfo">
+            <summary>
+            The txt_SearchProductGroup item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.btn_SearchAction">
+            <summary>
+            The btn_SearchAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.btn_SearchActionInfo">
+            <summary>
+            The btn_SearchAction item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.lb_SelectProductGroup">
+            <summary>
+            The lb_SelectProductGroup item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.InputBasicDataFolder.lb_SelectProductGroupInfo">
+            <summary>
+            The lb_SelectProductGroup item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder">
+            <summary>
+            The SubmitABusinessRequestFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SubmitABusinessRequest  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.btn_SubmitAction">
+            <summary>
+            The btn_SubmitAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.btn_SubmitActionInfo">
+            <summary>
+            The btn_SubmitAction item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.txt_CreatRequestDescription">
+            <summary>
+            The txt_CreatRequestDescription item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.txt_CreatRequestDescriptionInfo">
+            <summary>
+            The txt_CreatRequestDescription item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.btn_SubmitConfirm">
+            <summary>
+            The btn_SubmitConfirm item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.btn_SubmitConfirmInfo">
+            <summary>
+            The btn_SubmitConfirm item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.lb_RequestCRSuccessfull">
+            <summary>
+            The lb_RequestCRSuccessfull item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.lb_RequestCRSuccessfullInfo">
+            <summary>
+            The lb_RequestCRSuccessfull item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.btn_OKConfirm">
+            <summary>
+            The btn_OKConfirm item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.SubmitABusinessRequestFolder.btn_OKConfirmInfo">
+            <summary>
+            The btn_OKConfirm item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder">
+            <summary>
+            The FilterCRFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FilterCR  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.txt_SearchCR">
+            <summary>
+            The txt_SearchCR item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.txt_SearchCRInfo">
+            <summary>
+            The txt_SearchCR item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.btn_GoAction">
+            <summary>
+            The btn_GoAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.btn_GoActionInfo">
+            <summary>
+            The btn_GoAction item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.lb_CR_Request">
+            <summary>
+            The lb_CR_Request item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.lb_CR_RequestInfo">
+            <summary>
+            The lb_CR_Request item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.lb_APPROVED">
+            <summary>
+            The lb_APPROVED item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.lb_APPROVEDInfo">
+            <summary>
+            The lb_APPROVED item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.lb_Activation_Status">
+            <summary>
+            The lb_Activation_Status item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.FilterCRFolder.lb_Activation_StatusInfo">
+            <summary>
+            The lb_Activation_Status item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder">
+            <summary>
+            The LogoutReuqestorFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogoutReuqestor  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.lb_RequestorIcon">
+            <summary>
+            The lb_RequestorIcon item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.lb_RequestorIconInfo">
+            <summary>
+            The lb_RequestorIcon item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.lb_Logout">
+            <summary>
+            The lb_Logout item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.lb_LogoutInfo">
+            <summary>
+            The lb_Logout item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.btn_YesConfirm">
+            <summary>
+            The btn_YesConfirm item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.btn_YesConfirmInfo">
+            <summary>
+            The btn_YesConfirm item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.lb_ConfirmLogout">
+            <summary>
+            The lb_ConfirmLogout item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LogoutReuqestorFolder.lb_ConfirmLogoutInfo">
+            <summary>
+            The lb_ConfirmLogout item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder">
+            <summary>
+            The LoginForm_ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginForm_Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.txt_Username">
+            <summary>
+            The txt_Username item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.txt_UsernameInfo">
+            <summary>
+            The txt_Username item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.txt_Password">
+            <summary>
+            The txt_Password item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.txt_PasswordInfo">
+            <summary>
+            The txt_Password item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.btn_LogOn">
+            <summary>
+            The btn_LogOn item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_ChromeAppFolder.btn_LogOnInfo">
+            <summary>
+            The btn_LogOn item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder">
+            <summary>
+            The LoginForm_FirefoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginForm_Firefox  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.txt_Username">
+            <summary>
+            The txt_Username item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.txt_UsernameInfo">
+            <summary>
+            The txt_Username item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.txt_Password">
+            <summary>
+            The txt_Password item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.txt_PasswordInfo">
+            <summary>
+            The txt_Password item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.btn_LogOn">
+            <summary>
+            The btn_LogOn item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.LoginForm_FirefoxAppFolder.btn_LogOnInfo">
+            <summary>
+            The btn_LogOn item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_FirefoxAppFolder">
+            <summary>
+            The Manual1809_FirefoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_FirefoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Manual1809_Firefox  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_FirefoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_FirefoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_FirefoxAppFolder.CommondElements">
+            <summary>
+            The CommondElements folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_FirefoxAppFolder.ReviewARequest">
+            <summary>
+            The ReviewARequest folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.Manual1809_FirefoxAppFolder.Steward">
+            <summary>
+            The Steward folder.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder">
+            <summary>
+            The CommondElementsFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CommondElements  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.SelectMainApp">
+            <summary>
+            The SelectMainApp item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.SelectMainAppInfo">
+            <summary>
+            The SelectMainApp item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.lb_MyTasks">
+            <summary>
+            The lb_MyTasks item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.lb_MyTasksInfo">
+            <summary>
+            The lb_MyTasks item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.lb_MyInbox">
+            <summary>
+            The lb_MyInbox item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.lb_MyInboxInfo">
+            <summary>
+            The lb_MyInbox item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.txt_SearchCR">
+            <summary>
+            The txt_SearchCR item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.txt_SearchCRInfo">
+            <summary>
+            The txt_SearchCR item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.Btn_GoAction">
+            <summary>
+            The Btn_GoAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.CommondElementsFolder.Btn_GoActionInfo">
+            <summary>
+            The Btn_GoAction item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder">
+            <summary>
+            The ReviewARequestFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ReviewARequest  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.lb_SelectSearchRequest">
+            <summary>
+            The lb_SelectSearchRequest item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.lb_SelectSearchRequestInfo">
+            <summary>
+            The lb_SelectSearchRequest item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.lb_ApproveAction">
+            <summary>
+            The lb_ApproveAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.lb_ApproveActionInfo">
+            <summary>
+            The lb_ApproveAction item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.txt_ApprovaRequestDescription">
+            <summary>
+            The txt_ApprovaRequestDescription item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.txt_ApprovaRequestDescriptionInfo">
+            <summary>
+            The txt_ApprovaRequestDescription item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.btn_ApproveAction">
+            <summary>
+            The btn_ApproveAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.ReviewARequestFolder.btn_ApproveActionInfo">
+            <summary>
+            The btn_ApproveAction item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder">
+            <summary>
+            The StewardFolder folder.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Steward  folder.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_StewardsMenu">
+            <summary>
+            The lb_StewardsMenu item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_StewardsMenuInfo">
+            <summary>
+            The lb_StewardsMenu item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_ActivateRequests">
+            <summary>
+            The lb_ActivateRequests item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_ActivateRequestsInfo">
+            <summary>
+            The lb_ActivateRequests item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.txtSearchCR">
+            <summary>
+            The txtSearchCR item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.txtSearchCRInfo">
+            <summary>
+            The txtSearchCR item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.Btn_GoAction">
+            <summary>
+            The Btn_GoAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.Btn_GoActionInfo">
+            <summary>
+            The Btn_GoAction item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.btn_OptionMenu">
+            <summary>
+            The btn_OptionMenu item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.btn_OptionMenuInfo">
+            <summary>
+            The btn_OptionMenu item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_TakeActivateRequest">
+            <summary>
+            The lb_TakeActivateRequest item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_TakeActivateRequestInfo">
+            <summary>
+            The lb_TakeActivateRequest item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_ApproveAction">
+            <summary>
+            The lb_ApproveAction item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_ApproveActionInfo">
+            <summary>
+            The lb_ApproveAction item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.btn_CloseActiveMessage">
+            <summary>
+            The btn_CloseActiveMessage item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.btn_CloseActiveMessageInfo">
+            <summary>
+            The btn_CloseActiveMessage item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_StewardIcon">
+            <summary>
+            The lb_StewardIcon item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_StewardIconInfo">
+            <summary>
+            The lb_StewardIcon item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_LogoutSteward">
+            <summary>
+            The lb_LogoutSteward item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_LogoutStewardInfo">
+            <summary>
+            The lb_LogoutSteward item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.btn_YesConfirmLogout">
+            <summary>
+            The btn_YesConfirmLogout item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.btn_YesConfirmLogoutInfo">
+            <summary>
+            The btn_YesConfirmLogout item info.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_ConfirmLogin">
+            <summary>
+            The lb_ConfirmLogin item.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1RepositoryFolders.StewardFolder.lb_ConfirmLoginInfo">
+            <summary>
+            The lb_ConfirmLogin item info.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate">
+             <summary>
+            The ChooseTemplate recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.ChooseTemplate.varRequestTemplate">
+            <summary>
+            Gets or sets the value of variable varRequestTemplate.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor">
+             <summary>
+            The CloseBrowserRequestor recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.CloseBrowserRequestor.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR">
+             <summary>
+            The FilterCR recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.FilterCR.GetCRnumber">
+            <summary>
+            Gets or sets the value of variable GetCRnumber.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor">
+             <summary>
+            The Login_Requestor recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.varUsername">
+            <summary>
+            Gets or sets the value of variable varUsername.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.Login_Requestor.varPassword">
+            <summary>
+            Gets or sets the value of variable varPassword.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor">
+             <summary>
+            The LogoutRequestor recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.LogoutRequestor.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome">
+             <summary>
+            The OpenBrowserChrome recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.OpenBrowserChrome.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest">
+             <summary>
+            The SelectBusinessRequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectBusinessRequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp">
+             <summary>
+            The SelectMainApp recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SelectMainApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest">
+             <summary>
+            The SubmitARequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.varGetCRString">
+            <summary>
+            Gets or sets the value of variable varGetCRString.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.GetCRnumber">
+            <summary>
+            Gets or sets the value of variable GetCRnumber.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest">
+             <summary>
+            The SubmitRequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitRequest.varObjType">
+            <summary>
+            Gets or sets the value of variable varObjType.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData">
+             <summary>
+            The InputBasicData recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputBasicData.varProductGroup">
+            <summary>
+            Gets or sets the value of variable varProductGroup.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader">
+             <summary>
+            The InputHeader recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.varHeaderDescription">
+            <summary>
+            Gets or sets the value of variable varHeaderDescription.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.varHeaderPriority">
+            <summary>
+            Gets or sets the value of variable varHeaderPriority.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.varHeaderReason">
+            <summary>
+            Gets or sets the value of variable varHeaderReason.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputHeader.varHeaderOtherReason">
+            <summary>
+            Gets or sets the value of variable varHeaderOtherReason.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin">
+             <summary>
+            The InputProductMin recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Requestor.InputData.InputProductMin.varMaterialDescript">
+            <summary>
+            Gets or sets the value of variable varMaterialDescript.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Steward.ActiveARequest">
+             <summary>
+            The ActiveARequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Steward.ActiveARequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.ActiveARequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.ActiveARequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Steward.ActiveARequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.ActiveARequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.ActiveARequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Steward.ActiveARequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox">
+             <summary>
+            The CloseBrowserFireFox recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Steward.CloseBrowserFireFox.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Steward.FilterCR">
+             <summary>
+            The FilterCR recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Steward.FilterCR.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.FilterCR.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.FilterCR.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Steward.FilterCR.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.FilterCR.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.FilterCR.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Steward.FilterCR.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Steward.FilterCR.varCRNumber">
+            <summary>
+            Gets or sets the value of variable varCRNumber.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Steward.LogoutStewards">
+             <summary>
+            The LogoutStewards recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Steward.LogoutStewards.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.LogoutStewards.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.LogoutStewards.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Steward.LogoutStewards.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.LogoutStewards.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.LogoutStewards.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Steward.LogoutStewards.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest">
+             <summary>
+            The SelectActiveRequest recording.
+             </summary>
+        </member>
+        <member name="F:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest.repo">
+            <summary>
+            Holds an instance of the global::Manual1809_ZEBA_BD1.Manual1809_ZEBA_BD1Repository repository.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Manual1809_ZEBA_BD1.Steward.SelectActiveRequest.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
