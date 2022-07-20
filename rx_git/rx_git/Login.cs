@@ -99,6 +99,10 @@ namespace rx_git
             repo.LoginToYourAccountLogOn.LogOn.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Welcome.MainApp' at Center.", repo.Welcome.MainAppInfo, new RecordItemIndex(5));
+            repo.Welcome.MainApp.Click();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -29,6 +29,7 @@ namespace rx_git
         static rx_gitRepository instance = new rx_gitRepository();
         rx_gitRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
         rx_gitRepositoryFolders.LoginToYourAccountLogOnAppFolder _logintoyouraccountlogon;
+        rx_gitRepositoryFolders.WelcomeAppFolder _welcome;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_gitRepository element repository.
@@ -47,6 +48,7 @@ namespace rx_git
         {
             _applicationundertest = new rx_gitRepositoryFolders.ApplicationUnderTestAppFolder(this);
             _logintoyouraccountlogon = new rx_gitRepositoryFolders.LoginToYourAccountLogOnAppFolder(this);
+            _welcome = new rx_gitRepositoryFolders.WelcomeAppFolder(this);
         }
 
 #region Variables
@@ -81,6 +83,15 @@ namespace rx_git
         public virtual rx_gitRepositoryFolders.LoginToYourAccountLogOnAppFolder LoginToYourAccountLogOn
         {
             get { return _logintoyouraccountlogon; }
+        }
+
+        /// <summary>
+        /// The Welcome folder.
+        /// </summary>
+        [RepositoryFolder("04336837-18aa-42cf-b03f-33183ab16e21")]
+        public virtual rx_gitRepositoryFolders.WelcomeAppFolder Welcome
+        {
+            get { return _welcome; }
         }
     }
 
@@ -244,6 +255,72 @@ namespace rx_git
                 get
                 {
                     return _logonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The WelcomeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("04336837-18aa-42cf-b03f-33183ab16e21")]
+        public partial class WelcomeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _mainappInfo;
+
+            /// <summary>
+            /// Creates a new Welcome  folder.
+            /// </summary>
+            public WelcomeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Welcome", "/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']", parentFolder, 30000, null, false, "04336837-18aa-42cf-b03f-33183ab16e21", "")
+            {
+                _mainappInfo = new RepoItemInfo(this, "MainApp", ".//span[#'mainApp']/a[@innertext='Main App']", ".//span[#'mainApp']/a[@innertext='Main App']", 30000, null, "19684ce9-671b-42ec-8288-f4980dd3ca88");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("04336837-18aa-42cf-b03f-33183ab16e21")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("04336837-18aa-42cf-b03f-33183ab16e21")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MainApp item.
+            /// </summary>
+            [RepositoryItem("19684ce9-671b-42ec-8288-f4980dd3ca88")]
+            public virtual Ranorex.ATag MainApp
+            {
+                get
+                {
+                    return _mainappInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MainApp item info.
+            /// </summary>
+            [RepositoryItemInfo("19684ce9-671b-42ec-8288-f4980dd3ca88")]
+            public virtual RepoItemInfo MainAppInfo
+            {
+                get
+                {
+                    return _mainappInfo;
                 }
             }
         }

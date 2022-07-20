@@ -164,7 +164,6 @@ mode="Desktop">
 					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']
 				</path>
 				<robustPath>
-					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']
 				</robustPath>
 			</info>
 		</mouseitem>
@@ -302,7 +301,6 @@ mode="Desktop">
 					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']
 				</path>
 				<robustPath>
-					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']
 				</robustPath>
 			</info>
 		</keysequenceitem>
@@ -443,7 +441,6 @@ mode="Desktop">
 					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']
 				</path>
 				<robustPath>
-					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']
 				</robustPath>
 			</info>
 		</mouseitem>
@@ -579,7 +576,6 @@ mode="Desktop">
 					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']
 				</path>
 				<robustPath>
-					/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']
 				</robustPath>
 			</info>
 		</keysequenceitem>
@@ -650,7 +646,84 @@ mode="Desktop">
 					/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']/div[@innertext='Log On']
 				</path>
 				<robustPath>
-					/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']/div[@innertext='Log On']
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="28cc93e6-7727-495b-8a69-c6c0dd8c5d99"
+		sx="1254"
+		sy="581"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="19684ce9-671b-42ec-8288-f4980dd3ca88"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1003,557,502,48"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Main App
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com/main/index.html
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onclick"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//span[#'mainApp']/a[@innertext='Main App']
+				</path>
+				<robustPath>
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//span[#'mainApp']/a[@innertext='Main App']
 				</robustPath>
 			</info>
 		</mouseitem>
