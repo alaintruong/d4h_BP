@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bcaa73c6-f64b-4f3b-be15-c7cde2c29889"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectMainApp"
+	namespace="Manual1809_ZEBA_BD1.Requestor.CommonAction">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a0949767-11db-4bf5-a628-524bc8fea17f"
+		sx="1281"
+		sy="606"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="82a704c3-b3e4-4777-a66b-fc7d8258f582"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1043,582,477,48"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Main App
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com/main/index.html
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onclick"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//span[#'mainApp']/a[@innertext='Main App']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7e802a45-8976-4277-8797-acc205e71726"
+	name="Manual1809_ZEBA_BD1Repository"
+	relativepath="..\..\Manual1809_ZEBA_BD1Repository.rxrep">
+		<codegen
+		classname="Manual1809_ZEBA_BD1Repository"
+		namespace="Manual1809_ZEBA_BD1">
+		</codegen>
+		<rootfolder
+		id="d8f90a19-4361-42f8-89e0-c1195bdfcc38"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectMainApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
