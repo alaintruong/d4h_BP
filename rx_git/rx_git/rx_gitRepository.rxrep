@@ -1,0 +1,108 @@
+﻿<repository
+id="fa3cf16a-65d6-42cf-b92b-8f2625a86b85"
+name="rx_gitRepository">
+	<codegen
+	classname="rx_gitRepository"
+	namespace="rx_git">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="41fae5e4-a9b7-42e1-887a-f4768c410aa9"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5f44bf1d-7220-445c-9f61-4197ac062486"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='manual-test-ecc-simplemdg-web.cfapps.eu10.hana.ondemand.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3d437914-4129-4cf9-bf80-3f8eb3e0c9a4"
+		isrooted="True"
+		name="LoginToYourAccountLogOn"
+		refpath="/dom[@domain='aecawiatr.accounts.ondemand.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bd3d784d-c7cb-48e4-b798-d399d59f4f0c"
+			name="JUsername"
+			refimgid="d3fac311-60b4-4edd-892f-c0849b9cdf62"
+			refpath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c0884876-1032-4922-9735-ddb68147ace9"
+			name="JPassword"
+			refimgid="ae7795af-bb6a-43d5-b1c2-56d11a1a50d2"
+			refpath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com']//input[#'j_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5355c27c-9402-4e2e-ae1a-ecb54eda3de4"
+			name="LogOn"
+			refimgid="7eb4ee66-6bef-40d7-9cca-a9104af64dc5"
+			refpath="/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']/div[@innertext='Log On']"
+			robustPath="/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']/div[@innertext='Log On']"
+			searchtimeout="30000ms">
+				/dom[@domain='aecawiatr.accounts.ondemand.com']//button[#'logOnFormSubmit']/div[@innertext='Log On']
+			</item>
+			<basepath>
+				/dom[@domain='aecawiatr.accounts.ondemand.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
