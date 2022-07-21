@@ -1151,7 +1151,7 @@ mode="Global">
 	name="Manual1809_ZB02_VD_GD1Repository"
 	relativepath="..\..\Manual1809_ZB02_VD_GD1Repository.rxrep">
 		<codegen
-		classname="Manual1809_ZEBA_BD1Repository"
+		classname="Manual1809_ZB02_VD_GD1Repository"
 		namespace="Manual1809_ZEBA_BD1">
 		</codegen>
 		<rootfolder

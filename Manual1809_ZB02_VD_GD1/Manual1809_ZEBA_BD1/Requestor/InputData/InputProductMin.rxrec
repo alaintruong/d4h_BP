@@ -49,6 +49,32 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
+		searchpropertyid="21e5698e-04d1-4467-a673-2966bec6e86a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4c9515ab-1242-42c9-ab82-a5be313f46dc"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[4]/div/header/div[2]/div/div[2]/div/button[2]//tag[@innertext='General data']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
 		searchpropertyid="ec492cbd-bea0-461e-a722-64f113de2cf3"
 		sx="373"
 		sy="626"

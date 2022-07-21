@@ -131,35 +131,39 @@ namespace Manual1809_ZEBA_BD1.Requestor.InputData
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_Category' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_CategoryInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.lb_SelectGeneralData' at Center.", repo.Manual1809_Chrome.InputGeneralData.lb_SelectGeneralDataInfo, new RecordItemIndex(0));
+            repo.Manual1809_Chrome.InputGeneralData.lb_SelectGeneralData.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_Category' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_CategoryInfo, new RecordItemIndex(1));
             repo.Manual1809_Chrome.InputGeneralData.txt_Category.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varCategory' with focus on 'Manual1809_Chrome.InputGeneralData.txt_Category'.", repo.Manual1809_Chrome.InputGeneralData.txt_CategoryInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varCategory' with focus on 'Manual1809_Chrome.InputGeneralData.txt_Category'.", repo.Manual1809_Chrome.InputGeneralData.txt_CategoryInfo, new RecordItemIndex(2));
             repo.Manual1809_Chrome.InputGeneralData.txt_Category.PressKeys(varCategory);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_Title' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_TitleInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_Title' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_TitleInfo, new RecordItemIndex(3));
             repo.Manual1809_Chrome.InputGeneralData.txt_Title.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varTitle' with focus on 'Manual1809_Chrome.InputGeneralData.txt_Title'.", repo.Manual1809_Chrome.InputGeneralData.txt_TitleInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varTitle' with focus on 'Manual1809_Chrome.InputGeneralData.txt_Title'.", repo.Manual1809_Chrome.InputGeneralData.txt_TitleInfo, new RecordItemIndex(4));
             repo.Manual1809_Chrome.InputGeneralData.txt_Title.PressKeys(varTitle);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName1' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName1Info, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName1' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName1Info, new RecordItemIndex(5));
             repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varOrgBPName1' with focus on 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName1'.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName1Info, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varOrgBPName1' with focus on 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName1'.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName1Info, new RecordItemIndex(6));
             repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName1.PressKeys(varOrgBPName1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName2' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName2Info, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName2' at Center.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName2Info, new RecordItemIndex(7));
             repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varOrgBPName2' with focus on 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName2'.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName2Info, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varOrgBPName2' with focus on 'Manual1809_Chrome.InputGeneralData.txt_OrgBPName2'.", repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName2Info, new RecordItemIndex(8));
             repo.Manual1809_Chrome.InputGeneralData.txt_OrgBPName2.PressKeys(varOrgBPName2);
             Delay.Milliseconds(0);
             

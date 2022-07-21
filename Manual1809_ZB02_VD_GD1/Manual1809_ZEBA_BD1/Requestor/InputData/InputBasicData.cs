@@ -41,6 +41,9 @@ namespace Manual1809_ZEBA_BD1.Requestor.InputData
         /// </summary>
         public InputBasicData()
         {
+            varPostalCode = "";
+            varCity = "";
+            varRegion = "";
         }
 
         /// <summary>
@@ -52,6 +55,40 @@ namespace Manual1809_ZEBA_BD1.Requestor.InputData
         }
 
 #region Variables
+
+        string _varPostalCode;
+
+        /// <summary>
+        /// Gets or sets the value of variable varPostalCode.
+        /// </summary>
+        [TestVariable("5d1161b7-e1e0-43b1-830b-0ebfabcb2ae4")]
+        public string varPostalCode
+        {
+            get { return _varPostalCode; }
+            set { _varPostalCode = value; }
+        }
+
+        string _varCity;
+
+        /// <summary>
+        /// Gets or sets the value of variable varCity.
+        /// </summary>
+        [TestVariable("895f48e6-328e-41cd-a756-42855962316c")]
+        public string varCity
+        {
+            get { return _varCity; }
+            set { _varCity = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable varRegion.
+        /// </summary>
+        [TestVariable("acb197e6-e976-453b-bba9-61c3287f8968")]
+        public string varRegion
+        {
+            get { return repo.varRegion; }
+            set { repo.varRegion = value; }
+        }
 
 #endregion
 
@@ -87,16 +124,16 @@ namespace Manual1809_ZEBA_BD1.Requestor.InputData
             repo.Manual1809_Chrome.InputAddress.txt_PostalCode.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'Manual1809_Chrome.InputAddress.txt_PostalCode'.", repo.Manual1809_Chrome.InputAddress.txt_PostalCodeInfo, new RecordItemIndex(2));
-            repo.Manual1809_Chrome.InputAddress.txt_PostalCode.PressKeys("yourtext");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varPostalCode' with focus on 'Manual1809_Chrome.InputAddress.txt_PostalCode'.", repo.Manual1809_Chrome.InputAddress.txt_PostalCodeInfo, new RecordItemIndex(2));
+            repo.Manual1809_Chrome.InputAddress.txt_PostalCode.PressKeys(varPostalCode);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputAddress.txt_City' at Center.", repo.Manual1809_Chrome.InputAddress.txt_CityInfo, new RecordItemIndex(3));
             repo.Manual1809_Chrome.InputAddress.txt_City.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'Manual1809_Chrome.InputAddress.txt_City'.", repo.Manual1809_Chrome.InputAddress.txt_CityInfo, new RecordItemIndex(4));
-            repo.Manual1809_Chrome.InputAddress.txt_City.PressKeys("yourtext");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varCity' with focus on 'Manual1809_Chrome.InputAddress.txt_City'.", repo.Manual1809_Chrome.InputAddress.txt_CityInfo, new RecordItemIndex(4));
+            repo.Manual1809_Chrome.InputAddress.txt_City.PressKeys(varCity);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputAddress.btn_Region' at Center.", repo.Manual1809_Chrome.InputAddress.btn_RegionInfo, new RecordItemIndex(5));
@@ -107,8 +144,8 @@ namespace Manual1809_ZEBA_BD1.Requestor.InputData
             repo.Manual1809_Chrome.InputAddress.txt_SearchRegion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'Manual1809_Chrome.InputAddress.txt_SearchRegion'.", repo.Manual1809_Chrome.InputAddress.txt_SearchRegionInfo, new RecordItemIndex(7));
-            repo.Manual1809_Chrome.InputAddress.txt_SearchRegion.PressKeys("yourtext");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varRegion' with focus on 'Manual1809_Chrome.InputAddress.txt_SearchRegion'.", repo.Manual1809_Chrome.InputAddress.txt_SearchRegionInfo, new RecordItemIndex(7));
+            repo.Manual1809_Chrome.InputAddress.txt_SearchRegion.PressKeys(varRegion);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Manual1809_Chrome.InputAddress.btn_SearchAction' at Center.", repo.Manual1809_Chrome.InputAddress.btn_SearchActionInfo, new RecordItemIndex(8));

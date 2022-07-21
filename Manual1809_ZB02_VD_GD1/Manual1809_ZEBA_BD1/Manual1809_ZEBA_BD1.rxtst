@@ -367,6 +367,26 @@
 			name="InputBasicData"
 			ref="c257dfa3-3c11-47c6-a7dd-89593832ae9f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="varPostalCode"
+					datasourceid="693d585a-8635-4f2d-930e-5690ae966165"
+					variableid="5d1161b7-e1e0-43b1-830b-0ebfabcb2ae4"
+					variablename="varPostalCode">
+					</var>
+					<var
+					dataname="varCity"
+					datasourceid="693d585a-8635-4f2d-930e-5690ae966165"
+					variableid="895f48e6-328e-41cd-a756-42855962316c"
+					variablename="varCity">
+					</var>
+					<var
+					dataname="varRegion"
+					datasourceid="693d585a-8635-4f2d-930e-5690ae966165"
+					variableid="acb197e6-e976-453b-bba9-61c3287f8968"
+					variablename="varRegion">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="varProductGroup"
@@ -749,6 +769,15 @@
 				<column>
 					varOrgBPName2
 				</column>
+				<column>
+					varPostalCode
+				</column>
+				<column>
+					varCity
+				</column>
+				<column>
+					varRegion
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 				<columnname>
@@ -803,9 +832,6 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="17c9c220-b054-4fe6-931f-e83ce8be582e">
-			</testcontainer>
-			<testcontainer
 			id="2ef616b8-cd68-4c13-9497-36453fe2702e">
 			</testcontainer>
 			<testcontainer
@@ -819,9 +845,6 @@
 			</testcontainer>
 			<testcontainer
 			id="e29cebfb-04ae-40c9-8899-a6a5cbf5c4d9">
-			</testcontainer>
-			<testcontainer
-			id="eaecfcc0-c45e-47fa-a5c6-00d583fbe26b">
 			</testcontainer>
 			<testcontainer
 			id="fd83fc9c-dd93-4b10-ae73-1bceb532c256">

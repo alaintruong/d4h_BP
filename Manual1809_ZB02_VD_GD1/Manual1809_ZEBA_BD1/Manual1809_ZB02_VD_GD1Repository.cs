@@ -95,6 +95,18 @@ namespace Manual1809_ZEBA_BD1
             set { _CRNumber = value; }
         }
 
+        string _varRegion = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable varRegion.
+        /// </summary>
+        [TestVariable("acb197e6-e976-453b-bba9-61c3287f8968")]
+        public string varRegion
+        {
+            get { return _varRegion; }
+            set { _varRegion = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -577,10 +589,10 @@ namespace Manual1809_ZEBA_BD1
             public ChooseTemplateFolder(RepoGenBaseFolder parentFolder) :
                     base("ChooseTemplate", "", parentFolder, 0, null, false, "50ea0d85-6b46-4095-b5c1-0916076e2f1a", "")
             {
-                _lb_choosetemplateInfo = new RepoItemInfo(this, "lb_ChooseTemplate", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[1]/div/div/div[1]/div/div/div/div[3]/button[@title='Select method']/span[1]/span[2]/tag[@innertext='Choose template']", "", 30000, null, "fc5cc5a9-90ed-4dab-aeff-00f1fde7c9a1");
-                _txt_searchtemplateInfo = new RepoItemInfo(this, "txt_SearchTemplate", ".//div[#'sap-ui-static']/div[6]/header[2]//form/input[@type='search']", "", 30000, null, "dfcd4d0f-a67a-40fd-857f-3c93e9537105");
-                _btn_searchactionInfo = new RepoItemInfo(this, "btn_SearchAction", ".//div[#'sap-ui-static']/div[6]/header[2]//form/div[2]", "", 30000, null, "565f43a3-4cc7-4007-83e8-bbc6b486b593");
-                _lb_requesttemplateInfo = new RepoItemInfo(this, "lb_RequestTemplate", ".//div[#'sap-ui-static']/div[6]/section/div/div/div[2]/table/tbody/tr[1]/td[2]//span[@innertext=$varRequestTemplate]", "", 30000, null, "ed44a6f6-e754-4e4e-9077-c65da2339fc0");
+                _lb_choosetemplateInfo = new RepoItemInfo(this, "lb_ChooseTemplate", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/div[1]/div/div/div[1]/div/div/div/div[3]/button[@title='Select method']/span[1]/span[2]/tag[@innertext='Choose template']", ".//body[#'simplemdg']//tag[@innertext='Choose template']", 30000, null, "fc5cc5a9-90ed-4dab-aeff-00f1fde7c9a1");
+                _txt_searchtemplateInfo = new RepoItemInfo(this, "txt_SearchTemplate", ".//div[#'sap-ui-static']/div/header[2]//form[@class='sapMSFF']/input[@type='search']", ".//div[#'sap-ui-static']//input[@type='search']", 30000, null, "dfcd4d0f-a67a-40fd-857f-3c93e9537105");
+                _btn_searchactionInfo = new RepoItemInfo(this, "btn_SearchAction", ".//div[#'sap-ui-static']/div/header[2]//form[@class='sapMSFF']/div[2]", ".//div[#'sap-ui-static']//form/div[2]", 30000, null, "565f43a3-4cc7-4007-83e8-bbc6b486b593");
+                _lb_requesttemplateInfo = new RepoItemInfo(this, "lb_RequestTemplate", ".//div[#'sap-ui-static']/div/section/div/div/div[2]/table/tbody/tr[1]/td[2]//span[@innertext=$varRequestTemplate]", "", 30000, null, "ed44a6f6-e754-4e4e-9077-c65da2339fc0");
             }
 
             /// <summary>
@@ -709,10 +721,10 @@ namespace Manual1809_ZEBA_BD1
             public InputHeaderFolder(RepoGenBaseFolder parentFolder) :
                     base("InputHeader", "", parentFolder, 0, null, false, "30245adf-247f-4e65-8a3e-a6cfc1616bfa", "")
             {
-                _txt_requestdescriptionInfo = new RepoItemInfo(this, "txt_RequestDescription", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']", ".//body[#'simplemdg']//textarea[@placeholder='Request Description']", 30000, null, "b3c6cc4c-d358-41f5-afcb-fb19b890b860");
+                _txt_requestdescriptionInfo = new RepoItemInfo(this, "txt_RequestDescription", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']", ".//body[#'simplemdg']//textarea[@placeholder='Request Description']", 30000, null, "b3c6cc4c-d358-41f5-afcb-fb19b890b860");
                 _txt_priorityInfo = new RepoItemInfo(this, "txt_Priority", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[2]/div[@title='Priority']/?/?/input[@type='text']", "", 30000, null, "d9dfaa6e-fefd-4005-92c8-976df70f8274");
                 _txt_reasonInfo = new RepoItemInfo(this, "txt_Reason", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div//header/header/section/div/div/div[3]/div[@title='Reason']/?/?/input[@type='text']", "", 30000, null, "1cbd9dac-d604-4dc9-8716-65446142a852");
-                _txt_otherreasonInfo = new RepoItemInfo(this, "txt_OtherReason", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']", ".//body[#'simplemdg']//textarea[@placeholder='Other reason']", 30000, null, "77ef6cd9-8a18-47f1-8698-1aff1f29acc8");
+                _txt_otherreasonInfo = new RepoItemInfo(this, "txt_OtherReason", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']", "", 30000, null, "77ef6cd9-8a18-47f1-8698-1aff1f29acc8");
             }
 
             /// <summary>
@@ -1278,6 +1290,7 @@ namespace Manual1809_ZEBA_BD1
         [RepositoryFolder("2a92f9e6-3b2e-481c-9ebb-01a47a3c6f8c")]
         public partial class InputGeneralDataFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _lb_selectgeneraldataInfo;
             RepoItemInfo _txt_categoryInfo;
             RepoItemInfo _txt_titleInfo;
             RepoItemInfo _txt_orgbpname1Info;
@@ -1289,10 +1302,11 @@ namespace Manual1809_ZEBA_BD1
             public InputGeneralDataFolder(RepoGenBaseFolder parentFolder) :
                     base("InputGeneralData", "", parentFolder, 0, null, false, "2a92f9e6-3b2e-481c-9ebb-01a47a3c6f8c", "")
             {
-                _txt_categoryInfo = new RepoItemInfo(this, "txt_Category", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[3]/div[2]//input[@type='text']", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[3]/div[2]/div/div/input[@type='text']", 30000, null, "b9502f60-8581-41e2-a086-f774dce955a3");
-                _txt_titleInfo = new RepoItemInfo(this, "txt_Title", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[4]/div[2]//input[@type='text']", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[4]/div[2]/div/div/input[@type='text']", 30000, null, "3ba905d4-6f63-4e6e-8190-4b03a317e362");
-                _txt_orgbpname1Info = new RepoItemInfo(this, "txt_OrgBPName1", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[5]/div[2]//input[@type='text']", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[5]/div[2]/div/div/input[@type='text']", 30000, null, "8a245603-2b52-49fc-a6da-0b764ca1fea9");
-                _txt_orgbpname2Info = new RepoItemInfo(this, "txt_OrgBPName2", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[6]/div[2]//input[@type='text']", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[6]/div[2]/div/div/input[@type='text']", 30000, null, "bc323baf-5163-4abd-9660-fb01626be6ff");
+                _lb_selectgeneraldataInfo = new RepoItemInfo(this, "lb_SelectGeneralData", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[4]/div/header/div[2]/div/div[2]/div/button[2]//tag[@innertext='General data']", ".//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/header/div[2]/div/div[2]/div/button[2]/span/span/tag", 30000, null, "4c9515ab-1242-42c9-ab82-a5be313f46dc");
+                _txt_categoryInfo = new RepoItemInfo(this, "txt_Category", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[3]/div[2]//input[@type='text']", ".//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[3]/div[2]/div/div/input[@type='text']", 30000, null, "b9502f60-8581-41e2-a086-f774dce955a3");
+                _txt_titleInfo = new RepoItemInfo(this, "txt_Title", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[4]/div[2]//input[@type='text']", "", 30000, null, "3ba905d4-6f63-4e6e-8190-4b03a317e362");
+                _txt_orgbpname1Info = new RepoItemInfo(this, "txt_OrgBPName1", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[5]/div[2]//input[@type='text']", "", 30000, null, "8a245603-2b52-49fc-a6da-0b764ca1fea9");
+                _txt_orgbpname2Info = new RepoItemInfo(this, "txt_OrgBPName2", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[6]/div[2]//input[@type='text']", "", 30000, null, "bc323baf-5163-4abd-9660-fb01626be6ff");
             }
 
             /// <summary>
@@ -1304,6 +1318,30 @@ namespace Manual1809_ZEBA_BD1
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lb_SelectGeneralData item.
+            /// </summary>
+            [RepositoryItem("4c9515ab-1242-42c9-ab82-a5be313f46dc")]
+            public virtual Ranorex.WebElement lb_SelectGeneralData
+            {
+                get
+                {
+                    return _lb_selectgeneraldataInfo.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lb_SelectGeneralData item info.
+            /// </summary>
+            [RepositoryItemInfo("4c9515ab-1242-42c9-ab82-a5be313f46dc")]
+            public virtual RepoItemInfo lb_SelectGeneralDataInfo
+            {
+                get
+                {
+                    return _lb_selectgeneraldataInfo;
                 }
             }
 
@@ -1424,13 +1462,13 @@ namespace Manual1809_ZEBA_BD1
             public InputAddressFolder(RepoGenBaseFolder parentFolder) :
                     base("InputAddress", "", parentFolder, 0, null, false, "78b98ef5-1359-43e4-812e-1878b9b813a3", "")
             {
-                _lb_addressInfo = new RepoItemInfo(this, "lb_Address", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[3]//tag[@innertext='Address']", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[3]/span/span/tag", 30000, null, "c3c29593-5014-4761-9247-a50e6f8b0494");
-                _txt_postalcodeInfo = new RepoItemInfo(this, "txt_PostalCode", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[2]//input[@type='text']", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[13]/div[2]/div/div/input[@type='text']", 30000, null, "019e12e3-4118-46bb-8195-b67587bb8fa4");
-                _txt_cityInfo = new RepoItemInfo(this, "txt_City", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[3]//input[@type='text']", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[13]/div[3]/div/div/input[@type='text']", 30000, null, "c5f34fa4-c01a-44fd-b1ea-0dc66c8b4557");
-                _btn_regionInfo = new RepoItemInfo(this, "btn_Region", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[14]/div[2]/div/div/div[2]/span[2]", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[14]/div[2]/div/div/div[2]/span[2]", 30000, null, "56a24f26-2ca6-4c71-9fa2-6d2a72db235f");
+                _lb_addressInfo = new RepoItemInfo(this, "lb_Address", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/div[2]/div/div[2]/div/button[3]//tag[@innertext='Address']", ".//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/header/div[2]/div/div[2]/div/button[3]/span/span/tag", 30000, null, "c3c29593-5014-4761-9247-a50e6f8b0494");
+                _txt_postalcodeInfo = new RepoItemInfo(this, "txt_PostalCode", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[2]//input[@type='text']", ".//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[13]/div[2]/div/div/input[@type='text']", 30000, null, "019e12e3-4118-46bb-8195-b67587bb8fa4");
+                _txt_cityInfo = new RepoItemInfo(this, "txt_City", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[3]//input[@type='text']", "", 30000, null, "c5f34fa4-c01a-44fd-b1ea-0dc66c8b4557");
+                _btn_regionInfo = new RepoItemInfo(this, "btn_Region", ".//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[14]/div[2]/div/div/div[2]/span[2]", "", 30000, null, "56a24f26-2ca6-4c71-9fa2-6d2a72db235f");
                 _txt_searchregionInfo = new RepoItemInfo(this, "txt_SearchRegion", ".//div[@safeclass='sapMBarChild sapMSF']/?/?/input[@type='search']", ".//div[#'__dialog2-searchField']/?/?/input[@type='search']", 30000, null, "2588b8c1-e2e5-466c-bc20-7a9eba97af3f");
                 _btn_searchactionInfo = new RepoItemInfo(this, "btn_SearchAction", ".//div[@safeclass='sapMSFB sapMSFS']", ".//div[#'__dialog2-searchField-search']", 30000, null, "0cf9a7a4-6c96-41ff-a4f7-a38dd68dfe0d");
-                _lb_selectregionInfo = new RepoItemInfo(this, "lb_SelectRegion", ".//div[#'__dialog2-dialog-scrollCont']/?/?/table/tbody/tr[3]/td[4]/span[@innertext='California']", ".//div[#'__dialog2-dialog-scrollCont']//span[@innertext='California']", 30000, null, "aeecd3f2-9bf8-41d1-9377-ee94e20767c7");
+                _lb_selectregionInfo = new RepoItemInfo(this, "lb_SelectRegion", ".//div[#'__dialog2-dialog-scrollCont']/?/?/table/tbody/tr[3]/td[4]/span[@innertext=$varRegion]", "", 30000, null, "aeecd3f2-9bf8-41d1-9377-ee94e20767c7");
             }
 
             /// <summary>

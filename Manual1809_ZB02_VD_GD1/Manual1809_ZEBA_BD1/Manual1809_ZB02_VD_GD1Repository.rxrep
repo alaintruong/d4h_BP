@@ -113,10 +113,9 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="fc5cc5a9-90ed-4dab-aeff-00f1fde7c9a1"
 				name="lb_ChooseTemplate"
 				refimgid="21b501dc-28ce-4a7d-bac8-084ad0186616"
-				refpath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[1]/div/div/div[1]/div/div/div/div[3]/button[@title='Select method']/span[1]/span[2]/tag[@innertext='Choose template']"
-				robustPath=""
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//tag[@innertext='Choose template']"
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[1]/div/div/div[1]/div/div/div/div[3]/button[@title='Select method']/span[1]/span[2]/tag[@innertext='Choose template']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/div[1]/div/div/div[1]/div/div/div/div[3]/button[@title='Select method']/span[1]/span[2]/tag[@innertext='Choose template']
 				</item>
 				<item
 				addcaps="unknown,webelement,inputtag"
@@ -124,9 +123,9 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="dfcd4d0f-a67a-40fd-857f-3c93e9537105"
 				name="txt_SearchTemplate"
 				refimgid="c0d5549a-140d-4f82-b04f-6c50569d864c"
-				robustPath=""
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'sap-ui-static']//input[@type='search']"
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'sap-ui-static']/div[6]/header[2]//form/input[@type='search']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'sap-ui-static']/div/header[2]//form[@class='sapMSFF']/input[@type='search']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -134,9 +133,9 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="565f43a3-4cc7-4007-83e8-bbc6b486b593"
 				name="btn_SearchAction"
 				refimgid="061df6f9-5513-43f6-9f02-4e570e51fb6d"
-				robustPath=""
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'sap-ui-static']//form/div[2]"
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'sap-ui-static']/div[6]/header[2]//form/div[2]
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'sap-ui-static']/div/header[2]//form[@class='sapMSFF']/div[2]
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -146,7 +145,7 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				refimgid="72f4761f-159c-4a92-9ac1-32fa9ddd5fbb"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'sap-ui-static']/div[6]/section/div/div/div[2]/table/tbody/tr[1]/td[2]//span[@innertext=$varRequestTemplate]
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'sap-ui-static']/div/section/div/div/div[2]/table/tbody/tr[1]/td[2]//span[@innertext=$varRequestTemplate]
 				</item>
 			</folder>
 			<folder
@@ -161,10 +160,9 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="b3c6cc4c-d358-41f5-afcb-fb19b890b860"
 				name="txt_RequestDescription"
 				refimgid="11eef7af-07bb-4227-a88d-4aceec6c2541"
-				refpath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']//textarea[@placeholder='Request Description']"
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//textarea[@placeholder='Request Description']"
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/header/section/div/div/div[1]/div[@title='Request Description']/div/textarea[@placeholder='Request Description']
 				</item>
 				<item
 				addcaps="unknown,webelement,inputtag"
@@ -194,10 +192,9 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="77ef6cd9-8a18-47f1-8698-1aff1f29acc8"
 				name="txt_OtherReason"
 				refimgid="c4712872-279e-4825-906a-c3a68aba1f15"
-				refpath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']//textarea[@placeholder='Other reason']"
+				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/header/section/div/div/div[4]/div[@title='Reason']/div/textarea[@placeholder='Other reason']
 				</item>
 			</folder>
 			<folder
@@ -360,15 +357,22 @@ name="Manual1809_ZB02_VD_GD1Repository">
 			name="InputGeneralData"
 			searchtimeout="0ms">
 				<item
+				capname="webelement"
+				id="4c9515ab-1242-42c9-ab82-a5be313f46dc"
+				name="lb_SelectGeneralData"
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/header/div[2]/div/div[2]/div/button[2]/span/span/tag"
+				searchtimeout="30000ms">
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[4]/div/header/div[2]/div/div[2]/div/button[2]//tag[@innertext='General data']
+				</item>
+				<item
 				addcaps="unknown,webelement,inputtag"
 				capname="inputtag"
 				id="b9502f60-8581-41e2-a086-f774dce955a3"
 				name="txt_Category"
 				refimgid="c08b60ca-a52f-42af-b975-2924cd97f6c6"
-				refpath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[3]/div[2]/div/div/input[@type='text']"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[3]/div[2]/div/div/input[@type='text']"
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[3]/div[2]/div/div/input[@type='text']"
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[3]/div[2]//input[@type='text']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[3]/div[2]//input[@type='text']
 				</item>
 				<item
 				addcaps="unknown,webelement,inputtag"
@@ -376,10 +380,9 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="3ba905d4-6f63-4e6e-8190-4b03a317e362"
 				name="txt_Title"
 				refimgid="20af4b9d-6f36-414d-bf39-8faada9e31ee"
-				refpath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[4]/div[2]/div/div/input[@type='text']"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[4]/div[2]/div/div/input[@type='text']"
+				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[4]/div[2]//input[@type='text']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[4]/div[2]//input[@type='text']
 				</item>
 				<item
 				addcaps="unknown,webelement,inputtag"
@@ -387,19 +390,18 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="8a245603-2b52-49fc-a6da-0b764ca1fea9"
 				name="txt_OrgBPName1"
 				refimgid="f76c280a-5bce-4177-9835-f82f1e0a5ecd"
-				refpath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[5]/div[2]/div/div/input[@type='text']"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[5]/div[2]/div/div/input[@type='text']"
+				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[5]/div[2]//input[@type='text']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[5]/div[2]//input[@type='text']
 				</item>
 				<item
 				capname="inputtag"
 				id="bc323baf-5163-4abd-9660-fb01626be6ff"
 				name="txt_OrgBPName2"
 				refimgid="fc2e2ca8-b533-4ddb-9be0-bb190a9ebaef"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[6]/div[2]/div/div/input[@type='text']"
+				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[6]/div[2]//input[@type='text']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[2]/div[2]/div/div[1]/div/div[1]//section/div/div[6]/div[2]//input[@type='text']
 				</item>
 			</folder>
 			<folder
@@ -414,34 +416,33 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				id="c3c29593-5014-4761-9247-a50e6f8b0494"
 				name="lb_Address"
 				refimgid="3824b946-f584-42a7-8e4c-956c50992d6d"
-				refpath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[3]/span/span/tag[@innertext='Address']"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[3]/span/span/tag"
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/header/div[2]/div/div[2]/div/button[3]/span/span/tag"
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/header/div[2]/div/div[2]/div/button[3]//tag[@innertext='Address']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/header/div[2]/div/div[2]/div/button[3]//tag[@innertext='Address']
 				</item>
 				<item
 				capname="inputtag"
 				id="019e12e3-4118-46bb-8195-b67587bb8fa4"
 				name="txt_PostalCode"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[13]/div[2]/div/div/input[@type='text']"
+				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']//section/div/div/div/div/div/div/div[4]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[13]/div[2]/div/div/input[@type='text']"
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[2]//input[@type='text']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[2]//input[@type='text']
 				</item>
 				<item
 				capname="inputtag"
 				id="c5f34fa4-c01a-44fd-b1ea-0dc66c8b4557"
 				name="txt_City"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[13]/div[3]/div/div/input[@type='text']"
+				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[3]//input[@type='text']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[13]/div[3]//input[@type='text']
 				</item>
 				<item
 				capname="spantag"
 				id="56a24f26-2ca6-4c71-9fa2-6d2a72db235f"
 				name="btn_Region"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]/div/div/div/section/div/div[14]/div[2]/div/div/div[2]/span[2]"
+				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div[2]/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[14]/div[2]/div/div/div[2]/span[2]
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//body[#'simplemdg']/div[3]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div/div[2]/div/section[2]/section[3]/div[2]/div/div[1]/div/div[1]//section/div/div[14]/div[2]/div/div/div[2]/span[2]
 				</item>
 				<item
 				capname="inputtag"
@@ -463,9 +464,9 @@ name="Manual1809_ZB02_VD_GD1Repository">
 				capname="spantag"
 				id="aeecd3f2-9bf8-41d1-9377-ee94e20767c7"
 				name="lb_SelectRegion"
-				robustPath="/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com']//div[#'__dialog2-dialog-scrollCont']//span[@innertext='California']"
+				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'__dialog2-dialog-scrollCont']/?/?/table/tbody/tr[3]/td[4]/span[@innertext='California']
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Chrome']//div[#'__dialog2-dialog-scrollCont']/?/?/table/tbody/tr[3]/td[4]/span[@innertext=$varRegion]
 				</item>
 			</folder>
 			<basepath>
@@ -973,6 +974,10 @@ O4wAAAAASUVORK5CYII=
 		<var
 		id="1edc1fa6-ab96-4aec-b32d-90189e5f2397"
 		name="CRNumber">
+		</var>
+		<var
+		id="acb197e6-e976-453b-bba9-61c3287f8968"
+		name="varRegion">
 		</var>
 	</variables>
 </repository>
