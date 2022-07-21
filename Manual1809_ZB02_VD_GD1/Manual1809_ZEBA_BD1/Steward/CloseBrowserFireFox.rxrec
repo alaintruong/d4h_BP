@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cac9f2e7-3876-458b-a917-325e9383927f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowserFireFox"
+	namespace="Manual1809_ZEBA_BD1.Steward">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="1000ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="a666f8e5-ddf1-478d-bc0b-a9ef8d60b981">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3fcc821f-ec21-42cd-a441-e416dea2625c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='manual-test-s4-1809-simplemdg-web.cfapps.eu10.hana.ondemand.com' and @browser~'Firefox']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="7e802a45-8976-4277-8797-acc205e71726"
+	name="Manual1809_ZB02_VD_GD1Repository"
+	relativepath="..\Manual1809_ZB02_VD_GD1Repository.rxrep">
+		<codegen
+		classname="Manual1809_ZEBA_BD1Repository"
+		namespace="Manual1809_ZEBA_BD1">
+		</codegen>
+		<rootfolder
+		id="d8f90a19-4361-42f8-89e0-c1195bdfcc38"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowserFireFox.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

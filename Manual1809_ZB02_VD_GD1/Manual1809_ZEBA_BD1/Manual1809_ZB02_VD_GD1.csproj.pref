@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Manual1809_ZEBA_BD1.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Manual1809_ZEBA_BD1.rxtst" />
+    <Element value="Requestor\InputData\InputBasicData.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Get_value_RequestCRSuccessfull(RepoItemInfo spantagInfo)" />
+      <Element value="Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Get_value_RequestCRSuccessfull(RepoItemInfo spantagInfo)" />
+      <Element value="Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Get_value_lb_RequestCRSuccessfull1(RepoItemInfo spantagInfo)" />
+      <Element value="Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.Get_value_lb_RequestCRSuccessfull(RepoItemInfo spantagInfo)" />
+      <Element value="Manual1809_ZEBA_BD1.Requestor.CommonAction.SubmitARequest.GetCRNumber()" />
+    </Array>
+  </Properties>
+</Properties>
